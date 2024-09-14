@@ -5,7 +5,7 @@
 
         int i = 0; // Initialize index for placement of valid elements
 
-        // Iterate through the array
+        // Iterate through the array of wrd
         for (int j = 0; j < nums.length; j++) {
             // Allow up to 2 occurrences of each element
             if (i < 2 || nums[j] != nums[i - 2]) {
